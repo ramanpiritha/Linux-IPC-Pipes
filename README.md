@@ -86,18 +86,8 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
 ```
 ## OUTPUT
-```
-cat> hello.txt
-Hello world
-to check pipe
+![image](https://github.com/ramanpiritha/Linux-IPC-Pipes/assets/147084116/b49f7473-a6e0-41d7-805d-89aad4f22800)
 
-$ ./pipe1.o 
-ENTER THE FILE NAME :hello.txt	
-CLIENT SENDING THE REQUEST .... PLEASE WAIT
-THE RESULTS OF CLIENTS ARE ...... 
-Hello world
-to check pipe
-```
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 ```
@@ -113,13 +103,8 @@ exit(EXIT_SUCCESS);
 }
 ```
 ## OUTPUT
-```
-$ ./fifo1.o 
-FIFO created
+![image](https://github.com/ramanpiritha/Linux-IPC-Pipes/assets/147084116/ed17c223-52dc-423f-91b5-aa066ae1a77a)
 
-$ ls -l /tmp/my_fifo 
-prwxr-xr-x 1 gganesh gganesh 0 Sep 17 09:25 /tmp/my_fifo
-```
 
 # RESULT:
 The program is executed successfully.
